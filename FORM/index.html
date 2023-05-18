@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Basic Form</title>
+
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <style>
+        .center {
+            margin: auto;
+            width: 50%;
+            padding: 10px;
+        }
+        .form {
+  text-align: center;
+}
+    </style>
+</head>
+
+<body style="background-color:greenyellow ;">
+<div class="center" >
+    <form action="" class="form">
+            <h1>Personal Details</h1>
+            <label>FirstName:-</label>
+            <input type="text" name="firstname">
+            <br><br>
+            <label>PassWord:-</label>
+            <input type="password" name="pass">
+            <br><br>
+            <label>Email-id:-</label>
+            <input type="email" name="Email">
+            <br><br>
+            <label>Gender</label>
+            <input name="gender" value="male" type="radio"> Male
+            <input name="gender" value="female" type="radio"> Female
+            <br><br>
+            <h1>Educational Qualification</h1>
+            <label>Degree:-</label>
+            <select name="Degree">
+                <option selected disabled hidden>--Select your option</option>
+                <option value="">Bca</option>
+                <option value="saab">mscit</option>
+                <option value="fiat">Btec</option>
+            </select>
+            <br><br>
+
+            <label>Enginerring:-</label>
+            <select name="Enginerring">
+                <option selected disabled hidden>--Select your option</option>
+                <option value="">Bca</option>
+                <option value="saab">mscit</option>
+                <option value="fiat">Btec</option>
+            </select>
+            <br><br>
+            <label>ContactNo:-</label>
+            <input type="tel" name="number">
+            <br><br>
+            <label>Hobbies:-</label>
+            <input type="checkbox" name="Swimming">Swimming
+            <input type="checkbox" name="Dancing">Dancing
+            <input type="checkbox" name="Trekking">Trekking
+            <br><br>
+            <h1>Address</h1>
+            <textarea name="message" rows="10" cols="30">
+            </textarea>
+
+            <br><br>
+            <label>Attach resume:-</label>
+            <input type="file" no file chosen>
+
+            <br><br>
+            <input type="submit">
+
+    </form>
+
+</div>
+
+</body>
+
+</html>
